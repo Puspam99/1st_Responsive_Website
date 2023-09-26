@@ -18,7 +18,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 4vw;
+    padding: 0 5vw;
     border-bottom: 0.1vw solid #dadada;
 }
 .nav-part2{
@@ -37,3 +37,100 @@ i{
     font-weight: 700;
     display: none;
 }
+.nav-part2 button{
+    font-size: 1.2vw;
+        padding: 0.7vw 1.1vw;
+        background-color: #018673;
+        color: white;
+        border: none;
+        border-radius: 0.5vw;
+        font-weight: 500;
+        cursor: pointer;
+}
+button:hover{
+        background-color: #00DFC0;
+        
+}
+
+@media (max-width: 412px) {
+    i{
+        display: block ;
+        font-weight: 900;
+        font-size: 6vw;
+        color: white;
+    }
+    h2{
+        font-size: 7vw;
+        color: white;
+    }
+    h4{
+        display: none;
+    }
+    .nav{
+        background-color: lightseagreen;
+        height: 60px;
+        padding: 0 6vw;
+    }
+    .nav button{
+        display: none;
+    }
+    .containt{
+        height: calc(100% - 60px);
+        flex-direction: column;
+    }
+    .left{
+        background-color: red;
+       
+    }
+    
+}
+
+.containt{
+        height: calc(100% - 100px);
+        width: 100%;
+        display: flex;
+    }
+   
+    .left{
+       
+        height: 100%;
+        width: 55%;
+        padding: 5vw 5vw;
+    } 
+    .left h1{
+        font-size: 4.4vw;
+        line-height: 4vw;
+    }
+    .left h1 span{
+        color:#00DFC0 ;
+    }
+    .left p{
+        font-size: 1.2vw;
+        width: 80%;
+        color: #666;
+        font-weight: 500;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+    .left button{
+        font-size: 1.2vw;
+        padding: 1.1vw 2.1vw;
+        background-color: #00DFC0;
+        color: white;
+        border: none;
+        border-radius: 1vw;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .left button:hover{
+        background-color: #018673;
+    }
+    .right{
+        
+        height: 100%;
+        width: 45%;
+    }
+    .right img{
+        height: 100%;
+        width: 100%;
+    }
